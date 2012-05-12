@@ -1,9 +1,7 @@
-require "take-a-look/version"
+require 'ripl'
 
-module Take
-  module A
-    module Look
-      # Your code goes here...
-    end
+class Binding
+  def take_a_look
+    Ripl.start :binding => self
   end
 end
