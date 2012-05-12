@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.version       = Take::A::Look::VERSION
 
   gem.add_dependency "ripl", ">= 0"
-  gem.add_depepdency "ripl-multi_line", ">= 0"
+  gem.add_dependency "ripl-multi_line", ">= 0"
   gem.add_dependency "ripl-irb", ">= 0"
 
   gem.add_development_dependency "rspec", ">= 0"
