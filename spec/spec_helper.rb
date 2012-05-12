@@ -1,6 +1,6 @@
 require 'rspec'
 require 'take-a-look'
 
-Rspec.configure do |config|
+RSpec.configure do |config|
   # Nothing here for now
 end

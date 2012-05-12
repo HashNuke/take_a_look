@@ -1,5 +1,4 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/take-a-look/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Akash Manohar J"]
@@ -13,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "take-a-look"
   gem.require_paths = ["lib"]
-  gem.version       = Take::A::Look::VERSION
+  gem.version       = "0.1"
 
   gem.add_dependency "ripl", ">= 0"
   gem.add_dependency "ripl-multi_line", ">= 0"
