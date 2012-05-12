@@ -1,6 +1,6 @@
 # take-a-look
 
-This is a rubygem that I wrote to try writing a simple debugger.
+This gem is a try at writing a simple Ruby debugger detailed on my blog <http://akash.im/2012/05/12/home-made-debugger-in-ruby.html>
 
 
 ## Install
@@ -21,5 +21,5 @@ Enjoy!
 
 ## Notes
 
-* It's all just 6 lines + a test case.
+* It's all less than 10 lines + a test case.
 * This gem was written in 13 minutes (not that I'm proud of it).
